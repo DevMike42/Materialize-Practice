@@ -28,6 +28,14 @@ body {
     margin: 0;
     padding-top: 30px;
   }
+
+  .sidenav {
+    background-color: $secondary-color !important;
+
+    li a {
+      color: #fff !important;
+    }
+  }
 }
 
 .img-content {
@@ -42,9 +50,19 @@ body {
 }
 
 .page-footer {
-  background: $secondary-color;
+  background: $secondary-color !important;
 
   .footer-copyright {
-    background: $secondary-color-light;
+    background: $secondary-color-light !important;
   }
+}
+
+.modal {
+  color: #333;
+}
+
+
+.row-2,
+.row-3 {
+  opacity: 0;
 }

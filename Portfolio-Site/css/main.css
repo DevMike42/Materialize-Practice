@@ -6455,6 +6455,10 @@ body {
   .main-header h1 {
     margin: 0;
     padding-top: 30px; }
+  .main-header .sidenav {
+    background-color: #212121 !important; }
+    .main-header .sidenav li a {
+      color: #fff !important; }
 
 .img-content {
   display: flex;
@@ -6466,6 +6470,13 @@ body {
   color: #00796b; }
 
 .page-footer {
-  background: #212121; }
+  background: #212121 !important; }
   .page-footer .footer-copyright {
-    background: #424242; }
+    background: #424242 !important; }
+
+.modal {
+  color: #333; }
+
+.row-2,
+.row-3 {
+  opacity: 0; }
