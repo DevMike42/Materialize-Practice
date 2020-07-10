@@ -1,4 +1,17 @@
-$primary: red;
-body {
-  background: $primary;
+@import './materialize';
+
+// Header
+$header-bg: url(../img/pattern.png);
+$header-height: 300px;
+
+.main-header {
+  background: $header-bg;
+  color: #fff;
+  height: $header-height;
+  margin-bottom: 30px;
+
+  h1 {
+    margin: 0;
+    padding-top: 30px;
+  }
 }
