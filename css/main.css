@@ -1,0 +1,15 @@
+/* .site-card-row {
+  max-height: 30vh !important;
+} */
+
+.img-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+}
+
+.img-content * {
+  margin-top: .25em;
+  margin-bottom: .25em;
+}
